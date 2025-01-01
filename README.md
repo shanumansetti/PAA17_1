@@ -16,21 +16,21 @@
 
 ## Introduction
 
-This repository contains the Jupyter Notebook for the Application Assignment 17.1. This takes a sample jupyter notebook to complete the exercise to analyse UCI Bank Marketing Data Set in  file in the data folder of this repository to build a machine learning application that uses classifications to evaluate customers that will accept the Long-term deposit application using features like job, marital status, education, housing and personal loan.
+This repository contains the Jupyter Notebook for Application Assignment 17.1, which involves analyzing the UCI Bank Marketing Dataset. The dataset, located in the data folder under the file name [bank-data-full.csv](https://github.com/shanumansetti/PAA17_1/blob/main/data/bank-additional-full.csv), is used to build a machine learning application that predicts which customers are likely to accept a long-term deposit offer. The analysis leverages various features, including job, marital status, education, housing, and personal loan.
 
-The goal of this project is to compare the performance of the following classifiers namely
-* K Nearest Neighbor
-* Logistic Regression
-* Decision Trees and
-* Support Vector Machines
+The primary objective of this project is to compare the performance of the following classification algorithms:
 
-In comparing the models, the training times and accuracy of the models will be recorded. This should provide an indication on the model that will provide predictions to determine which customer will accept the long term deposit bank product via a phone based marketing campaign.
+K-Nearest Neighbors (KNN)
+Logistic Regression
+Decision Trees
+Support Vector Machines (SVM)
+During the comparison, the training times and accuracy of each model will be recorded. This analysis aims to identify the most effective model for predicting customer acceptance of the long-term deposit offer, which is the focus of a phone-based marketing campaign.
 
 ## How to use the files in this repository?
 
 The notebooks are grouped into the following categories:
 * ``articles`` – More information on the data and features
-* ``data`` – vehicles.csv data file from Kaggle Machine Learning dataset repository used in the notebooks
+* ``data`` – bank-additional-full.csv data file from Kaggle Machine Learning dataset repository used in the notebooks
 * ``images`` – Image files used in Notebook and Project Description
 * ``notebook`` – What Drives the Price of a Car Notebook
 
